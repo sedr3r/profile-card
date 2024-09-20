@@ -11,6 +11,11 @@ body {
     align-self: start;
 }
 
+::selection {
+    color: #1e0322;
+    background: #dfc2db;
+  }
+
 .avatar {
     width: 256px;
 }
