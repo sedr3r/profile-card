@@ -23,7 +23,12 @@ body {
     background: #f9eaef;
     color: #2b2839;
     border-bottom: 6px solid #560f6a;
-    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
+    box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.5);
+    transition: box-shadow 0.2s ease-in-out;
+}
+
+.card:hover {
+    box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.5);
 }
 
 .border-blue {
@@ -41,7 +46,12 @@ button {
     padding: 5px 10px;
     border: none;
     border-radius: 100px;
-    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.5);
+    box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.5);;
+    transition: box-shadow 0.2s ease-in-out;
+}
+
+button:hover {
+    box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.5);
 }
 
 button:hover {
