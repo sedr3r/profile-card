@@ -17,7 +17,7 @@ body {
   }
 
 .avatar {
-    width: 256px;
+    width: 271px;
 }
 
 .card {
@@ -42,7 +42,7 @@ body {
 
 .info {
     display: grid;
-    margin: 20px;
+    margin: 35px;
 }
 
 button {
